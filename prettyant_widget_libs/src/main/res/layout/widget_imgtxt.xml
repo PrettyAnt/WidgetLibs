@@ -2,30 +2,22 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:id="@+id/rl_icon"
+    <ImageView
+        android:id="@+id/iv_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true">
-
-        <ImageView
-            android:id="@+id/iv_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:src="@drawable/iv_default"/>
-    </RelativeLayout>
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/iv_default"/>
 
     <TextView
         android:id="@+id/tv_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rl_icon"
+        android:layout_below="@+id/iv_icon"
         android:layout_centerHorizontal="true"
-        android:gravity="center"
         android:text="测试"
         />
 
