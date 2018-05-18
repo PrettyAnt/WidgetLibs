@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo1--->>......"/>
+
+    <Button
+        android:id="@+id/btn_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo2--->>MaterialDesign"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:padding="20dp"
+        android:text="1. Demo1演示的有自定义组合控件、activity右滑退出、富有弹性的ScrollView、ToolBar+viewPager切换fragemnt等\n2. Demo2演示的是MaterialDesign风格的样式"
+        android:textColor="@color/colorgray"
+        android:textSize="8sp"/>
+
+</LinearLayout>

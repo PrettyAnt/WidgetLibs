@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chenyu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="自定义组合控件测试"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:background="@color/colorYellow"/>
+
+    <com.example.widget.ImgTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        chenyu:cy_backgroud="@mipmap/ic_launcher"
+        chenyu:cy_backgroud_height="30dp"
+        chenyu:cy_backgroud_width="30dp"
+        chenyu:cy_text="自定义组合图片测试"
+        chenyu:cy_text_color="@color/red"
+        chenyu:cy_text_size="12px"/>
+
+    <com.example.widget.ImgTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        chenyu:cy_backgroud="@mipmap/ic_launcher"
+        chenyu:cy_backgroud_height="120dp"
+        chenyu:cy_backgroud_width="120dp"
+        chenyu:cy_text="自定义组合图片测试"
+        chenyu:cy_text_color="@color/red"
+        chenyu:cy_text_size="12px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="系统方法测试"
+        android:textColor="#f00"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:textColor="@color/colorgray"
+        android:textSize="8sp"
+        android:gravity="bottom"
+        android:text="本例子演示的是imageView+TextView的组合方式，其他同理，相比于TextView中的DrawableTop、DrawableBottom...方式，此方法能更改imageiew的大小。当某页面中imageView+TextView的地方比较多时，优势就很明显了。"/>
+</LinearLayout>

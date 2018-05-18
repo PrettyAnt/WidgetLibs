@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpdbImgText">
+    <attr name="cy_backgroud" format="reference"/>
+    <attr name="cy_backgroud_width" format="dimension"/>
+    <attr name="cy_backgroud_height" format="dimension"/>
+    <attr name="cy_text" format="string"/>
+    <attr name="cy_text_color" format="color"/>
+    <attr name="cy_text_size" format="dimension"/>
+    </declare-styleable>
+</resources>

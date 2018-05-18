@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:text="可弹性的ScrollView测试"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:background="@color/colorYellow"/>
+
+    <com.example.widget.ElasticScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:text="测试测试测试测试测试测试测试测试测aa
+                试测试测试cc测试测试测试测hello试测试测试测试测试测试测试aaa
+                测试测试测cc试测试测试测试hello测试测试测试测试测试测试测试测
+                试测试测试cc测试测试测试测hello试测试测试测试测试测试测试测试
+                测试测试测cc试测试测试测试hello测试测试测试测试测试测试测试测
+                试测试测试cc测试测试测试测hello试测试测试测试测试测试测试测试
+                测试测试测cc试测试测试测试hello测试测试测试"
+                android:textSize="22sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="hello"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:text="测试测试测试测试测试测试测试测试测aa
+                试测试测试cc测试测试测试测hello试测试测试测试测试测试测试aaa
+                测试测试测cc试测试测试测试hello测试测试测试测试测试测试测试测
+                试测试测试cc测试测试测试测hello试测试测试测试测试测试测试测试
+                测试测试测cc试测试测试测试hello测试测试测试测试测试测试测试测
+                试测试测试cc测试测试测试测hello试测试测试测试测试测试测试测试
+                测试测试测cc试测试测试测试hello测试测试测试"
+                android:textSize="22sp"/>
+
+        </LinearLayout>
+    </com.example.widget.ElasticScrollView>
+</LinearLayout>
