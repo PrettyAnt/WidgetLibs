@@ -1,5 +1,5 @@
 # WidgetLibs
-### 自定义组合控件、activity右滑退出、富有弹性的ScrollView、ToolBar+viewPager切换fragemnt、MaterialDesign风格的样式等. 
+##### Tips:自定义组合控件、activity右滑退出、富有弹性的ScrollView、ToolBar+viewPager切换fragemnt、MaterialDesign风格的样式等. 
 
 
 # 在使用该功能前，你需要添加以下依赖
