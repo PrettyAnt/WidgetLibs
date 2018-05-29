@@ -16,6 +16,8 @@
 	dependencies {
 	        implementation 'com.github.PrettyAnt:WidgetLibs:v1.0.1'
 	}
+	
+### *************************************************************************************************
 
 ## 组合控件的使用（如ImageView+TextView）
     在xml布局中添加如下节点即可：
