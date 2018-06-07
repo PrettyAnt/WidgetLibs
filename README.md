@@ -15,7 +15,7 @@
 
 # Step 2. Add the dependency
 	dependencies {
-	        implementation 'com.github.PrettyAnt:WidgetLibs:v1.0.1'
+	        implementation 'com.github.PrettyAnt:WidgetLibs:v1.0.2'
 	}
 	
 ### ************************************************************************************************
@@ -40,6 +40,14 @@
       SlidingLayout rootView = new SlidingLayout(this);
       rootView.bindActivity(this);
     最好在BaseActivity调用此方法，通过重写来控制当前界面是否需要实现此功能
+    
+## TextView阴影效果
+    只需在xml文件中添加如下节点就可：
+        <com.example.widget.StrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        ...
+        </com.example.widget.ElasticScrollView>
 
 ## Toolbar+viewpager实现fragment的功能
     详见demo
