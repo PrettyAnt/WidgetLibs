@@ -18,7 +18,7 @@
 	        implementation 'com.github.PrettyAnt:WidgetLibs:v1.0.2'
 	}
 	
-### ************************************************************************************************
+### ******************************************类库功能**************************************************
 
 ## 组合控件的使用（如ImageView+TextView）
     在xml布局中添加如下节点即可：
@@ -48,11 +48,15 @@
             android:layout_height="wrap_content">
         ...
         </com.example.widget.ElasticScrollView>
+	
+	
 
-## Toolbar+viewpager实现fragment的功能
+### ******************************************demo其他的一些效果************************************************
+
+## TabLayout+Toolbar+ViewPager实现各种导航栏效果
     详见demo
 
-## Demo2演示的是MaterialDesign风格的样式,可以参考
+## MaterialDesign风格的样式,可以参考
     详见demo
 
 
