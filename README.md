@@ -45,7 +45,7 @@
       rootView.bindActivity(this);
     最好在BaseActivity调用此方法，通过重写来控制当前界面是否需要实现此功能
     
-## TextView阴影效果「提供了两种实现方式，另一种详见本类库中ImageTextView部分源码［传送门](https://github.com/PrettyAnt/WidgetLibs)」
+## TextView阴影效果「提供了两种实现方式，另一种详见本类库中ImageTextView部分源码[传送门](https://github.com/PrettyAnt/WidgetLibs)」
     只需在xml文件中添加如下节点就可：
         <com.example.widget.StrokeTextView
             android:layout_width="wrap_content"
