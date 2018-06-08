@@ -62,7 +62,7 @@ public class ImgTextView extends LinearLayout {
             int picWidth = (int) typedArray.getDimension(R.styleable.SpdbImgText_cy_backgroud_width, 40);
             int picHeight = (int) typedArray.getDimension(R.styleable.SpdbImgText_cy_backgroud_height, 40);
 //            iv_icon.setMinimumWidth(40);
-//            iv_icon.setMinimumWidth(40);
+//            iv_icon.setMinimumHeight(40);
             iv_icon.setMaxWidth(picWidth);
             iv_icon.setMaxHeight(picHeight);
             iv_icon.setImageResource(picBackgroud);
