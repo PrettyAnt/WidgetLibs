@@ -5,8 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.widget.SlidingLayout;
 
-//import com.example.myslidinglayoutlib.SlidingLayout;
-
+/**
+ * Created by chenyu on 2018/5/14.
+ */
 public abstract class BaseActivity extends AppCompatActivity {
 
     @Override

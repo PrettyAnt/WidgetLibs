@@ -6,6 +6,9 @@ import android.widget.Button;
 
 import com.example.fangli.myslidelib.demo2.ThirdActivity;
 
+/**
+ * Created by chenyu on 2018/5/14.
+ */
 public class MainActivity extends BaseActivity {
 
     @Override

@@ -9,6 +9,9 @@ import android.view.View;
 
 import com.example.fangli.myslidelib.R;
 
+/**
+ * Created by chenyu on 2018/5/14.
+ */
 public class DetailActivity extends AppCompatActivity {
 
     @Override

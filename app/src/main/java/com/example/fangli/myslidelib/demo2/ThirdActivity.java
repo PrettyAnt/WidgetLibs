@@ -22,6 +22,9 @@ import com.example.fangli.myslidelib.R;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by chenyu on 2018/5/14.
+ */
 public class ThirdActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;

@@ -7,6 +7,9 @@ import android.support.v7.widget.Toolbar;
 
 import com.example.fangli.myslidelib.R;
 
+/**
+ * Created by chenyu on 2018/5/14.
+ */
 public class Detail2Activity extends AppCompatActivity {
 
     @Override
