@@ -6,6 +6,7 @@
     <color name="colorYellow">#ffdf40</color>
     <color name="red">#f00</color>
     <color name="colorgray">#c9c7c7</color>
+    <color name="black">#1a1919</color>
 
     <color name="window_background">#FFF5F5F5</color>
 </resources>

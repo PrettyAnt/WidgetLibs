@@ -4,9 +4,9 @@
 ## ---------------------------------------------------------------
 
 
-# 怎使用此开源库
-# 在使用该功能前，你需要添加以下依赖
-# Step 1. Add the JitPack repository to your build file
+# I.怎使用此开源库
+## 在使用该功能前，你需要添加以下依赖
+### Step 1. Add the JitPack repository to your build file
        Add it in your root build.gradle at the end of repositories:
       （在根build.gradle添加）
        allprojects {
@@ -15,14 +15,14 @@
           }
       }
 
-# Step 2. Add the dependency
+### Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.PrettyAnt:WidgetLibs:v1.0.2'
 	}
 	
 ### ***************************************************************************************
 
-# 类库功能
+# II.类库功能
 
 ## 组合控件的使用（如ImageView+TextView）
     在xml布局中添加如下节点即可：
@@ -57,7 +57,7 @@
 
 ### ******************************************************************************************
 
-# Demo其他的一些效果
+# III.Demo其他的一些效果
 
 ## TabLayout+Toolbar+ViewPager实现各种导航栏效果
     详见demo

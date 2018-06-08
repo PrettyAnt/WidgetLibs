@@ -36,7 +36,7 @@
         chenyu:cy_backgroud_height="120dp"
         chenyu:cy_backgroud_width="120dp"
         chenyu:cy_text="自定义组合图片测试"
-        chenyu:cy_text_color="@color/red"
+        chenyu:cy_text_color="@color/black"
         chenyu:cy_text_size="12px"/>
 
     <TextView
