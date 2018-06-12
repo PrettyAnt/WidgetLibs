@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 /**
  * Created by chenyu on 2018/5/14.
+ * Author'github https://github.com/PrettyAnt
  * 自定义组合控件
  * 本实例主要展示的是自定义组合控件，新增了<文字阴影效果> 背景--->>mTv_background_content
  * 原理：在xml中添加两个TextView，一个TextView作为背景，并获取该TextView的TextPaint，

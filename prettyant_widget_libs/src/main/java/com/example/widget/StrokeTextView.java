@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 /**
  * Created by chenyu on 2018/5/14.
+ * Author'github https://github.com/PrettyAnt
  * 文字阴影效果
  */
 @SuppressLint("AppCompatCustomView")

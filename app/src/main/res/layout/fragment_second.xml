@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:padding="20dp"
+        android:padding="10dp"
         android:text="可弹性的ScrollView测试"
         android:textColor="@color/colorAccent"
         android:textSize="22sp"

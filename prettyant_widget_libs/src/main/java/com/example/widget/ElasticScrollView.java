@@ -11,9 +11,8 @@ import android.widget.ScrollView;
 /**
  * 
  * ElasticScrollView有弹性的ScrollView
- * 
- *
- * @author chenyu   Email:981214993@qq.com  T:15921892585
+ * @author chenyu   Email:981214993@qq.com
+ * Author'github https://github.com/PrettyAnt
  * @version 2016/12/15 17:15
  * 
  */

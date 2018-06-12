@@ -25,7 +25,4 @@ public class Detail2Activity extends AppCompatActivity {
         collapsingToolbar.setTitle("测试测试");
     }
 
-//    public void checkin(View view) {
-//        Snackbar.make(view, "checkin success!", Snackbar.LENGTH_SHORT).show();
-//    }
 }
